@@ -1,0 +1,893 @@
+@font-face {
+	src: local("Open Sans Regular"), url('../fonts/OpenSans-Regular.ttf') format("TrueType"),
+	url('../fonts/OpenSans.woff2') format("font/woff2");
+	font-family: "Open Sans";
+	font-weight: 400;  /* Normal (Regular) */
+	font-style: normal;
+}
+
+@font-face {
+	src: local("Open Sans Italic"), url('../fonts/OpenSans-Italic.ttf') format("TrueType"),
+	url("../fonts/OpenSans-Italic.woff2") format("font/woff2");
+	font-family: "Open Sans";
+	font-weight: 400; /* Normal (Regular) */
+	font-style: italic;
+}
+
+@font-face {
+	src: local("Open Sans SemiBold"), url('../fonts/OpenSans-SemiBold.ttf') format("TrueType"),
+	url('../fonts/OpenSans.woff2') format("font/woff2");
+	font-family: "Open Sans";
+	font-weight: 600; /* Semi Bold */
+	font-style: normal;
+}
+
+@font-face {
+	src: local("Open Sans Bold"), url('../fonts/OpenSans-Bold.ttf') format("TrueType"),
+	url('../fonts/OpenSans.woff2') format("font/woff2");
+	font-family: "Open Sans";
+	font-weight: 700; /* Bold */
+	font-style: normal;
+}
+
+@font-face {
+	src: local("Open Sans ExtraBold"), url('../fonts/OpenSans-ExtraBold.ttf') format("TrueType"),
+	url('../fonts/OpenSans.woff2') format("font/woff2");
+	font-family: "Open Sans";
+	font-weight: 800; /* Extra Bold */
+	font-style: normal;
+}
+
+body {
+	margin: 0;
+	font-family: "Open Sans", sans-serif;
+}
+
+header {
+	padding-top: 29px;
+	background-color: #F6F2F2;
+	padding-bottom: 94px;
+}
+
+.menu {
+	width: 1249px;
+	margin: 0 auto;
+	background: #000;
+}
+
+.menu ul {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0;
+	padding: 0;
+}
+
+.menu li {
+	height: 100%;
+	list-style: none;
+}
+
+.menu li > a {
+	display: inline-block;
+	height: 100%;
+	padding: 0 24px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 14px;
+	font-weight: 700;
+	letter-spacing: 0.035em;
+	line-height: 6.4em;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #E0E0E0;
+}
+
+.menu li > a:hover {
+	background: #FF3F40;
+}
+
+/* Секция our strong organisation */
+.intro-wrapper {
+	background-color: #F6F2F2;
+	padding-bottom: 105px;
+	margin-bottom: 104px;
+}
+
+.intro {
+	display: flex;
+	justify-content: center;
+	width: 1249px;
+	margin: 0 auto;
+}
+
+.intro-left, .service-left {
+	width: 50%;
+}
+
+.intro-left > h1 {
+	margin: 0 0 18px 0;
+	font-family: "Open Sans", sans-serif;
+	font-size: 60px;
+	line-height: 1.2em;
+	font-weight: 800;
+	letter-spacing: 0.1em;
+	text-transform: uppercase;
+}
+
+p {
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	line-height: 28px;
+	font-weight: 400;
+	-webkit-hyphens: auto;
+	hyphens: auto;
+	opacity: 0.7;
+	color: #000;
+}
+
+.intro-left > p {
+	margin: 0 0 52px 0;
+	width: 85%;
+}
+
+.intro-left > a {
+	display: block;
+	width: 227px;
+	border-radius: 5px;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 55px;
+	letter-spacing: 0.025em;
+	text-decoration: none;
+	background-color: #FF2D2D;
+	color: #FFF;
+}
+
+.intro-right {
+	width: 50%;
+	padding-top: 10px;
+	padding-right: 7px;
+	text-align: right;
+}
+
+.intro-right > a {
+	display: inline-block;
+	padding: 0px;
+}
+
+/* Секция do you know we can provide for you ? */
+.service-wrapper {
+	background-color: #FFF;
+	margin-bottom: 73px;
+}
+
+.service {
+	display: flex;
+	justify-content: center;
+	width: 1289px;
+	margin: 0 auto;
+}
+
+h2 {
+	font-family: "Open Sans", sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1.3em;
+	letter-spacing: 0.01em;
+	opacity: 0.8;
+	text-transform: uppercase;
+}
+
+.service-left > h2 {
+	margin-top: 0;
+	margin-left: 18px;
+	margin-bottom: 33px;
+}
+
+.service-left > p {
+	margin-top: 0;
+	margin-left: 20px;
+	width: 82%;
+	margin-bottom: 50px;
+}
+
+.service-left > a {
+	display: block;
+	width: 223px;
+	margin-left: 19px;
+	border: 2px solid;
+	border-radius: 5px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 52px;
+	letter-spacing: 0.025em;
+	text-align: center;
+	text-decoration: none;
+	color: #ff2d2d;
+}
+
+.service-right {
+	width: 50%;
+	display: flex;
+	flex-wrap: wrap;
+	text-align: initial;
+}
+
+.service-right > div {
+	width: 50%;
+	margin-bottom: 0px;
+}
+
+.service-right img {
+	margin-top: 5px;
+	margin-left: 17px;
+	margin-bottom: 19px;
+}
+
+.service-right h3 {
+	margin: 0 0 8px 16px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 24px;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+	opacity: 0.7;
+}
+
+.service-right p {
+	margin: 0 18px 12px;
+}
+
+main > hr:nth-of-type(1) {
+	border: none;
+	border-top: 2px solid #ececec;
+	margin: 0 auto;
+	width: 1249px;
+	height: 0px;
+	margin-bottom: 94px;
+}
+
+/* Секция feature products */
+.product-wrapper {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	margin-bottom: 114px;
+}
+
+.product-wrapper > h2 {
+	margin: 0  0 16px 38px;
+}
+
+.product-wrapper > p {
+	text-align: center;
+	margin: 0px auto 25px;
+	width: 476px;
+}
+
+.product-wrapper > hr {
+	border: none;
+	border-top: 3px solid #ff2d2d;
+	margin: 0 auto;
+	margin-bottom: 83px;
+	width: 132px;
+	height: 0px;
+}
+
+.product-menu {
+	font-family: "Open Sans", sans-serif;
+	font-size: 22px;
+	font-weight: 600;
+	line-height: 24px;
+	letter-spacing: 0.01em;
+	margin-bottom: 54px;
+}
+
+.product-menu > ul {
+	display: flex;
+	margin: 0;
+	padding: 0;
+}
+
+.product-menu li {
+	height: 100%;
+	list-style: none;
+}
+
+.product-link {
+	margin: 0 24px;
+	text-decoration: none;
+	text-transform: uppercase;
+	opacity: 0.7;
+	color: #000;
+}
+
+.product-active, .product-link:hover {
+	opacity: 1;
+	color: #ff2d2d;
+}
+
+.product-foto {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	width: 1289px;
+}
+
+.product-foto > img {
+	width: 298px;
+	padding: 10px;
+}
+
+/* Секция Meet our team */
+.team-wrapper {
+	width: 1249px;
+	margin: 0px auto;
+	margin-bottom: 110px;
+}
+
+.team-head {
+	margin-bottom: 70px;
+}
+
+.team-head > h2 {
+	margin: 0 -10px;
+	margin-bottom: 23px;
+}
+
+.team-head > p {
+	width: 462px;
+	margin-top: 0;
+	margin-bottom: 29px;
+	margin-left: 2px;
+}
+
+.team-head > hr, .feedback-head > hr {
+	border: none;
+	border-top: 3px solid #ff2d2d;
+	margin: 0 auto;
+	width: 132px;
+}
+
+.team-head > hr {
+	margin-left: 4px;
+}
+
+.team-members {
+	display: flex;
+	justify-content: space-between;
+}
+
+.team-members > img {
+	margin-right: 73px;
+}
+
+.team-members > div:nth-of-type(1) {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.team-member-disc {
+	width: 75%;
+}
+
+.team-member-disc > h3 {
+	margin: 3px 0 21px -2px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 30px;
+	font-weight: 600;
+	letter-spacing: 0.01em;
+	opacity: 0.8;
+	text-transform: uppercase;
+}
+
+.team-member-disc > p {
+	margin-top: 0;
+	margin-bottom: 35px;
+}
+
+.team-member-social > ul {
+	display: flex;
+	padding: 0;
+	margin: 0 0 10px;
+}
+
+.team-member-social li {
+	height: 100%;
+	list-style: none;
+}
+.team-member-social li > a {
+	margin-right: 30px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-style: italic;
+	font-weight: 400;
+	letter-spacing: 0.05em;
+	opacity: 0.8;
+	text-decoration: none;
+	color: #000;
+}
+
+.team-foto {
+	display: flex;
+}
+
+.team-foto-title {
+	position: relative;
+		margin-right: 20px;
+}
+
+.team-member-name {
+	visibility: hidden;
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	margin: 0;
+	text-align: center;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 37px;
+	letter-spacing: 0.025em;
+	text-transform: uppercase;
+	opacity: 0.5;
+	background-color: #000;
+	color: #fff;
+}
+
+.team-foto-title > img {
+	display: block;
+	width: 197px;
+	height: auto;
+}
+
+.team-foto-title:hover {
+	cursor: pointer;
+}
+
+.team-foto-title:hover > .team-member-name {
+	visibility: visible;
+}
+
+/* Секция Design tips, tricks, and freebies. */
+.subscribe {
+	background-color: #f5f0dd;
+	padding: 129px 0 140px;
+	margin-bottom: 58px;
+	text-align: center;
+}
+
+.subscribe > h2 {
+	margin-top: 0;
+	margin-bottom: 22px;
+	letter-spacing: 0.025em;
+	color: #fff;
+	text-transform: initial;
+}
+
+.subscribe > p {
+	margin-bottom: 58px;
+	opacity: 0.8;
+	color: #fff;
+}
+
+.subscribe-mail {
+	border: none;
+	width: 449px;
+	line-height: 79px;
+	border-radius: 5px;
+	margin-right: 22px;
+	padding: 0 36px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	opacity: 1;
+	color: #000;
+}
+
+.subscribe-mail::placeholder {
+	opacity: 0.7;
+	color: #000;
+}
+
+.button {
+	width: 214px;
+	padding: 0;
+	border: none;
+	border-radius: 5px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 79px;
+	letter-spacing: 0.025em;
+	text-transform: uppercase;
+	cursor: pointer;
+	background-color: #FF2D2D;
+	color: #FFFFFF;
+}
+
+/* Секция get in touch */
+.feedback-wrapper {
+	display: flex;
+	justify-content: end;
+	margin-right: 0;
+	margin-bottom: 110px;
+}
+
+.feedback-head {
+	max-width: 738px;
+	padding-left: 16px;
+	margin-bottom: 76px;
+}
+
+.feedback-head > h2, 
+.feedback-head > p {
+	margin-left: 20px;
+}
+
+.feedback-head > h2 {
+	margin-bottom: 34px;
+}
+
+.feedback-head > p {
+	margin-top: 0px;
+	margin-bottom: 50px;
+}
+
+.feedback-head > hr {
+	margin-left: 20px;
+}
+
+.feedback {
+	width: 84vw;
+	min-width: 1249px;
+}
+
+.feedback-body {
+	display: flex;
+}
+
+.feedback-form {
+	width: 768px;
+	margin-right: 108px;
+	flex: 0 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.feedback-form > input {
+	width: 35%;
+	flex: 1 1 auto;
+}
+
+.feedback-form > input[type="text"],
+.feedback-form > input[type="email"], 
+.feedback-form > textarea {
+	border: none;
+	border-radius: 8px;
+ 	padding: 0px 30px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	letter-spacing: 0.025em;
+	opacity: 1;
+	background-color: #e5e5e5;
+	color: #000;
+}
+
+.feedback-form > input[type="text"], 
+.feedback-form > input[type="email"] {
+	line-height: 69px;
+	margin-bottom: 46px;
+}
+
+.feedback-form > input[name="feedback-name"] {
+	margin-left: 40px;
+	margin-right: 26px;
+}
+
+.feedback-form > input[name="feedback-mail"] {
+	margin-right: 0;
+	margin-left: 26px;
+}
+
+.feedback-form > textarea {
+	padding: 35px 50px;
+	padding-top: 35px;
+	width: 90%;
+	flex: 1 1 auto;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 45px;
+	margin-left: 40px;
+	resize: none;
+}
+
+.feedback-send {
+ 	margin-left: 40px;
+ 	margin-right: 0px;
+ 	line-height: 74px;
+}
+
+.contact-info {
+	padding: 7% 0 7% 78px;
+	margin: 0;
+	flex: 1 1 auto;
+	background: #000;
+}
+
+.contact-info > h3 {
+	margin-bottom: 19px;
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 45px;
+	letter-spacing: 0.025em;
+	text-transform: uppercase;
+	opacity: 0.8;
+	color: #fff;
+}
+
+.contact-info > p, 
+.contact-info > address {
+	margin-top: 0px;
+	margin-left: 2px;
+	margin-bottom: 17px;
+	font-style: normal;
+	opacity: 0.8;
+	color: #fff;
+}
+
+/* Footer на inline-block */
+footer {
+  white-space: nowrap;
+  padding: 40px 17vw 32px;
+  background-color: #000;
+}
+
+footer > p, footer > div {
+	display: inline-block;
+	margin: 0;
+	width: 50%;
+	vertical-align: middle;
+	opacity: 1;
+	color: #b8b8b8;
+}
+
+.social-icon {
+	text-align: right;
+}
+
+.social-icon > a {
+	display: inline-block;
+	height: 100%;
+	margin: 5px 7px;
+}
+
+/* <============= Адаптивный дизайн ==============> */
+
+@media screen and (max-width: 1300px) {
+	.team-head > h2{
+		margin-left: 9px;
+		margin-right: 9px;
+	}
+	.team-head > p {
+		margin-left: 21px;
+	 }
+	.team-head > hr {
+	 	margin-left: 21px;
+	 }
+	 .team-members > img {
+	 	margin-left: 9px;
+	 }
+}
+
+@media screen and (max-width: 1285px) {
+	.menu, .intro, 
+	.service, 
+	.product-foto, 
+	.team-wrapper {
+		width: 100%;
+	}
+	.intro-left > h1, 
+	.intro-left > p, 
+	.intro-left > a {
+		margin-left: 9px;
+		margin-right: 9px;
+	}
+	.intro-right {
+		padding-left: 9px;
+		padding-right: 9px;
+	}
+	.intro-right > a, 
+	.intro-video {
+		width: 100%;
+		height: auto;
+	}
+	main > hr:nth-of-type(1) {
+		width: 90%;
+	}
+	.product-foto > img {
+		width: 25%;
+		height: auto;
+	}
+	.team-foto {
+		flex-wrap: wrap;
+	}
+	.team-foto-title {
+		margin: 5px;
+	}
+	.feedback-wrapper {
+		margin-bottom: 40px;
+	}
+	.feedback {
+		width: 100%;
+		min-width: 300px;
+	}
+	.feedback-body {
+		flex-direction: column;
+		flex-wrap: wrap;
+	}
+	.feedback-form {
+		align-self: center;
+		margin-right: 0;
+		margin-bottom: 40px;
+	}
+}
+
+@media screen and (max-width: 1200px) {
+	.intro-left > h1 {
+		font-size: 5vw;		
+	}
+}
+
+@media screen and (max-width: 900px) {
+	.intro {
+		flex-direction: column;
+		align-items: center;
+	}	
+	.intro-left, 
+	.intro-right {
+		width: 98%;
+	}
+	.intro-right {
+		text-align: center;
+	}
+	.intro-left > h1 {
+		font-size: 45px;
+		hyphens: auto;
+	}
+	.intro-left > p {
+		width: 96%;
+		text-align: left;
+	}
+	.service-right > div, 
+	.product-wrapper > p {
+		width: 100%;
+	}
+	.intro-left > a {
+		margin-bottom: 40px;
+	}
+	.intro-right {
+		padding-top: 0;
+	}
+main > hr:nth-of-type(1) {
+		margin-bottom: 40px;
+	}
+	.product-wrapper > h2 {
+		margin: 0 auto 38px;
+		text-align: center;
+	}
+	.product-menu > ul {
+		flex-wrap: wrap;
+		justify-content: end;
+	}
+	.product-foto > img {
+		width: 20%;
+		flex: 1 0 auto;
+		padding: 0;
+		margin: 5px;
+	}
+	.team-head > p {
+	 	width: 96%;
+	 	margin: 0 auto 29px;
+	 }
+	.team-head > hr {
+	 	margin-left: 9px;
+	 }
+	.team-members {
+		flex-direction: column;
+	}
+	.team-members > img {
+		margin: 0 auto 10px;
+	}
+	.team-member-disc > h3 {
+		margin: 0 9px 21px;
+	}
+	.team-member-disc > p {
+		margin: 0 9px 35px;
+	}
+	.team-member-social > ul {
+		margin-left: 9px;
+		flex-wrap: wrap;
+	}
+	.subscribe-mail {
+		width: 72%;
+		margin: 0 auto 20px;
+	}
+	.feedback-head {
+		padding-left: 0;
+	}
+	.feedback-head > h2, 
+	.feedback-head > p, 
+	.feedback-head > hr {
+		margin-right: 9px;
+		margin-left: 9px;
+	}
+ 	.feedback-form {
+ 		width: 100%;
+ 		align-items: center;
+ 	}
+ 	.feedback-form > input[name="feedback-name"], 
+ 	.feedback-form > input[name="feedback-mail"],
+ 	.feedback-form > textarea, 
+ 	.feedback-send {
+ 		margin: 0 9px 40px;
+ 	}
+ 	.feedback-form > textarea {
+ 		padding: 35px 30px 0;
+ 	}
+ 	.contact-info {
+ 		padding: 5vw;
+ 	}
+	footer {
+  	white-space: normal;
+  }
+  footer > p, footer > div {
+		width: 100%;
+		text-align: center;
+		margin: 0;
+	}
+	.social-icon {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 650px) {
+	.service {
+		flex-direction: column;
+	}
+	.service-left {
+		margin-bottom: 40px;
+	}
+	.service-left,
+	.service-right {
+		width: 100%;
+	}
+	.service-left > h2, 
+	.service-left > p, 
+	.service-left > a {
+		margin-left: 9px;
+		margin-right: 9px;
+	}
+	.service-left > a{
+		margin-bottom: 10px;
+	}
+	.product-menu > ul {
+		flex-direction: column;
+	}
+	.team-foto {
+		justify-content: center;
+	}
+	.feedback-form {
+		flex-direction: column;
+	}
+	.feedback-form > input,
+	.feedback-form > textarea {
+		width: 75%;
+	}
+}
